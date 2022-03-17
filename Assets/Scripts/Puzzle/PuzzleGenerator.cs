@@ -5,8 +5,6 @@ using Unboxed.Scriptable;
 using Unboxed.Utility;
 using Unboxed.Interface;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
 
 namespace Unboxed.Puzzle
 {

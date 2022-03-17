@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84dcf73b708ac4e2da98929bef2f313b, type: 3}
+  m_Name: Puzzle_12
+  m_EditorClassIdentifier: 
+  puzzleName: EMPTY NE7
+  hintText: 
+  width: 4
+  height: 3
+  gridGap: 0.5
+  oddStart: 0
+  colors: 010000000200000003000000
+  puzzleConditions:
+  - gemsColor: 1
+    amount: 5
+  - gemsColor: 2
+    amount: 4
+  - gemsColor: 3
+    amount: 3
+  starterPairings:
+  - gemsColor: 1
+    pairingIndex: 0000000002000000
+  - gemsColor: 2
+    pairingIndex: 0700000009000000
+  - gemsColor: 3
+    pairingIndex: 0600000008000000
+  dots:
+  - m_AssetGUID: ec9b96074a721434d89902b051da72bb
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 57c293f11bdbf47cd97ad82ef84602c1
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: ec9b96074a721434d89902b051da72bb
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 57c293f11bdbf47cd97ad82ef84602c1
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: ec13f3304743343a39276582bd343cc8
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 0a73e1418c62343778d1cab5da0cf388
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 0a73e1418c62343778d1cab5da0cf388
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 192c8efe243324e18ae600fc40b9cf48
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: bd119bd25bdfc4ff48e2e38498450e00
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 192c8efe243324e18ae600fc40b9cf48
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 57c293f11bdbf47cd97ad82ef84602c1
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 57c293f11bdbf47cd97ad82ef84602c1
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

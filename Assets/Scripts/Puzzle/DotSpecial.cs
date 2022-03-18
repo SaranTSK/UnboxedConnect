@@ -10,9 +10,7 @@ namespace Unboxed.Puzzle
         [SerializeField] private GameObject _dotBackground;
         [SerializeField] private GameObject _dotFrame;
         [SerializeField] private List<GameObject> _dotFills;
-        //[SerializeField] private List<GemsColor> _tmpColor = new List<GemsColor>();
         [SerializeField] private GameObject _colorPicker;
-        //[SerializeField] private List<GameObject> _colorSlots = new List<GameObject>();
 
         protected override void Start()
         {
@@ -52,7 +50,9 @@ namespace Unboxed.Puzzle
 
                 _dotState = DotState.Empty;
                 _filledSlot--;
-                ResetDotColor();
+                //ResetDotFillColorByIndex(_filledSlot);
+                
+                //ResetDotColor();
                 //PlayClearAniamtion();
             }
         }
@@ -126,8 +126,18 @@ namespace Unboxed.Puzzle
         public void ResetDotFillColorByIndex(int index)
         {
             ResetDotColorByIndex(index);
-            SetSpriteColor(_dotFills[index], GemsColor.Empty);
+            SetSpriteColor(_dotFills[index], _starterColor);
         }
+
+        public void ResetAllFilledColor()
+        {
+            for (int i = 0; i < _dotFills.Count; i++)
+            {
+                OnExit();
+                ResetDotFillColorByIndex(i);
+            }
+        }
+
 
         //TODO: 2. Fill _dotFills
         public void SetDotFillColor(int index, GemsColor gemsColor)

@@ -146,6 +146,24 @@ namespace Unboxed.Player
         {
             // For OnRestart puzzle controller
             Debug.Log($"Restart EmptyPuzzleController");
+            foreach (var dots in _firstDots)
+            {
+                foreach (var dot in dots.Value)
+                {
+                    if(dot.TryGetComponent(out Dot dotComponent))
+                    {
+                        if(!dotComponent.IsSpecial)
+                        {
+                            dotComponent.OnExit();
+                        }
+                        else
+                        {
+                            dot.GetComponent<DotSpecial>().ResetAllFilledColor(); ;
+                        }
+                    }
+                }
+                dots.Value.Clear();
+            }
         }
 
         protected override void OnClickedEmptyDot(Dot dot)

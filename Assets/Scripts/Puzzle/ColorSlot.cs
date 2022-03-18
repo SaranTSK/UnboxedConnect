@@ -18,11 +18,6 @@ namespace Unboxed
             _gemsColor = gemsColor;
         }
 
-        //public void SetKeyGemsColor(GemsColor gemsColor)
-        //{
-        //    _keyGemsColor = gemsColor;
-        //}
-
         public bool IsEmptyColor()
         {
             return _gemsColor == GemsColor.Empty;
@@ -39,7 +34,6 @@ namespace Unboxed
             player.SetCurrentGemsColor(_gemsColor);
             player.SetKeyGemsColor(_gemsColor);
             player.SetShowColorPicker(false);
-            //Debug.LogWarning($"Set player color: {_gemsColor}");
         }
 
         public DotSpecial GetDotSpacial()

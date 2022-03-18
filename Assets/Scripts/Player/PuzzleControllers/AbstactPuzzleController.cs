@@ -299,7 +299,7 @@ namespace Unboxed.Player
                     if (!dot.IsSpecial)
                     {
                         dot.OnExit();
-                        dot.ResetDotColorByIndex(0);
+                        //dot.ResetDotColorByIndex(0);
                     }
                     else
                     {
@@ -338,7 +338,7 @@ namespace Unboxed.Player
                     if (!dot.IsSpecial)
                     {
                         dot.OnExit();
-                        dot.ResetDotColorByIndex(0);
+                        //dot.ResetDotColorByIndex(0);
                     }
                     else
                     {

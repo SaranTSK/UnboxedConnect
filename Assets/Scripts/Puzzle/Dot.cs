@@ -170,11 +170,11 @@ namespace Unboxed.Puzzle
             _isSecondary = value;
         }
 
-        public void ResetDotColor()
-        {
-            _gemsColor = _starterColor;
-            _keyGemsColor = _starterKeyColor;
-        }
+        //public void ResetDotColor()
+        //{
+        //    _gemsColor = _starterColor;
+        //    _keyGemsColor = _starterKeyColor;
+        //}
 
         public void ResetDotColorByIndex(int index)
         {

@@ -216,7 +216,7 @@ namespace Unboxed.Player
                 if (dots[i].TryGetComponent(out Dot selectedDot))
                 {
                     selectedDot.OnExit();
-                    selectedDot.ResetDotColor();
+                    //selectedDot.ResetDotColor();
                 }
             }
             dots.Clear();
@@ -279,7 +279,7 @@ namespace Unboxed.Player
                     if (dots[i].TryGetComponent(out Dot selectedDot))
                     {
                         selectedDot.OnExit();
-                        selectedDot.ResetDotColor();
+                        //selectedDot.ResetDotColor();
                     }
                 }
                 dots.RemoveRange(index + 1, dots.Count - (index + 1));
@@ -331,7 +331,7 @@ namespace Unboxed.Player
                 if (dots[0].TryGetComponent(out Dot selectedDot))
                 {
                     selectedDot.OnExit();
-                    selectedDot.ResetDotColor();
+                    //selectedDot.ResetDotColor();
                 }
 
                 dots.Clear();

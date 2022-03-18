@@ -44,8 +44,8 @@ namespace Unboxed.Puzzle
 
                 _dotState = DotState.Empty;
                 _filledSlot--;
-                ResetDotColor();
-                SetSpriteColor(gameObject, _gemsColor);
+                ResetDotColorByIndex(0);
+                SetSpriteColor(gameObject, _starterColor);
                 PlayClearAniamtion();
             }
         }

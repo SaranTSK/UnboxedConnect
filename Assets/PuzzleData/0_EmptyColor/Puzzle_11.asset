@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84dcf73b708ac4e2da98929bef2f313b, type: 3}
   m_Name: Puzzle_11
   m_EditorClassIdentifier: 
-  puzzleName: EMPTY NE3
+  puzzleName: EMPTY NE11
   hintText: 
   width: 3
   height: 2

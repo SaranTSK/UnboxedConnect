@@ -41,7 +41,7 @@ namespace Unboxed
         private Vector3 CalculateStartPos()
         {
             float pixelPerUnit = 256f;
-            float spriteWidth = 256f / pixelPerUnit;
+            float spriteWidth = 225f / pixelPerUnit;
             float spriteHeight = 256f / pixelPerUnit;
 
             spriteWidth += spriteWidth * _gridGap;

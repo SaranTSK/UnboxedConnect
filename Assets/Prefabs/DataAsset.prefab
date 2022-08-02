@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7516698049349770273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7516698049349770275}
+  - component: {fileID: 7516698049349770272}
+  m_Layer: 0
+  m_Name: DataAsset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7516698049349770275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7516698049349770273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7516698049349770272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7516698049349770273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d51b84d625d9a46a0a807bf46faa3e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _assets:
+  - gemsColor: 0
+    puzzles:
+    - {fileID: 11400000, guid: 631ee5384435549b6ae698edebd46db2, type: 2}
+    - {fileID: 11400000, guid: 08d5bd9f2f6104ee899df2c8edef524d, type: 2}
+    - {fileID: 11400000, guid: 2683c4584360847debb7dd60b16d705b, type: 2}
+    - {fileID: 11400000, guid: 37ba0f477989546a5a9383b869ff8f8a, type: 2}
+    - {fileID: 11400000, guid: af5a4163ba7a74ffc9c3eca7272cc595, type: 2}
+    - {fileID: 11400000, guid: f4e800453cda54c449a86712aa58c385, type: 2}
+    - {fileID: 11400000, guid: 70b13250df93f4a8dba41db821e5d304, type: 2}
+    - {fileID: 11400000, guid: bf6d0ca5b79ba482ba1d673feaf81863, type: 2}
+    - {fileID: 11400000, guid: 8f3c608a9a5074d08a4a3d24acb43b71, type: 2}
+    - {fileID: 11400000, guid: 80504f3ce6fc5488f9fa6962be1ce225, type: 2}
+    - {fileID: 11400000, guid: bce9812e82a9e4c4fbd10f4fb285988a, type: 2}
+  - gemsColor: 1
+    puzzles: []
+  - gemsColor: 2
+    puzzles: []
+  - gemsColor: 3
+    puzzles: []
+  - gemsColor: 4
+    puzzles: []
+  - gemsColor: 5
+    puzzles: []
+  - gemsColor: 6
+    puzzles: []
+  - gemsColor: 7
+    puzzles: []
+  - gemsColor: 8
+    puzzles: []
+  - gemsColor: 9
+    puzzles: []
+  - gemsColor: 10
+    puzzles: []
